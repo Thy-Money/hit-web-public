@@ -1,0 +1,60 @@
+body{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #5b76ec 0%, #6b3e97 100%);
+}
+
+.profile{
+    width: 200px;
+    padding: 40px;
+    background-color: rgb(156, 186, 212);
+    border-radius: 20px;
+    text-align: center;
+    position: relative;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.avatar{
+    height: 120px;
+    width: 120px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.name{
+    color: rgb(23, 23, 44);
+}
+
+.title{
+    font-size: 20px;
+    color: rgb(31, 24, 24);
+}
+
+.bio{
+    font-size: 16px;
+    color: rgb(20, 12, 12);
+}
+
+.social-link{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-button{
+    text-decoration: none;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 17px;
+}
